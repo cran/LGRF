@@ -1,0 +1,4 @@
+#exportPattern("^[[:alpha:]]+")
+export(null.LGRF,test.LGRF,test.MinP,IBS_pseudo,LGRF.SSD.OneSet_SetIndex,LGRF.SSD.All)
+import(CompQuadForm,SKAT,geepack)
+importFrom("stats", "cor", "lm", "rbinom")
